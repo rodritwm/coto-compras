@@ -6,6 +6,14 @@
   "author": {
     "name": "Rodrigo Rey"
   },
+  "homepage": "https://github.com/rodritwm/coto-compras",
+  "repository": "https://github.com/rodritwm/coto-compras",
   "license": "MIT",
-  "keywords": ["coto", "supermercado", "compras", "argentina", "mcp"]
+  "keywords": [
+    "coto",
+    "supermercado",
+    "compras",
+    "argentina",
+    "mcp"
+  ]
 }

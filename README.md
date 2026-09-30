@@ -35,7 +35,7 @@ Extras de la lista: un ítem puede tener `alternativas` (compra el más barato d
 Dentro de Claude Code:
 
 ```
-/plugin marketplace add <usuario-de-github>/coto-compras
+/plugin marketplace add rodritwm/coto-compras
 /plugin install coto-compras@coto-compras
 ```
 
