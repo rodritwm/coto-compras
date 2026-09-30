@@ -2,7 +2,7 @@
   "mcpServers": {
     "coto": {
       "command": "uv",
-      "args": ["run", "--script", "${CLAUDE_PLUGIN_ROOT}/server/server.py"]
+      "args": ["run", "--locked", "--script", "${CLAUDE_PLUGIN_ROOT}/server/server.py"]
     }
   }
 }

@@ -24,9 +24,7 @@ Extras de la lista: un ítem puede tener `alternativas` (compra el más barato d
 ## Requisitos
 
 - [Claude Code](https://claude.com/claude-code) o [Codex](https://developers.openai.com/codex) (`npm install -g @openai/codex`)
-- [uv](https://docs.astral.sh/uv/getting-started/installation/), que instala Python y las dependencias solo:
-  - Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
-  - macOS / Linux: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+- [uv](https://docs.astral.sh/uv/getting-started/installation/), que instala Python y las dependencias solo (seguí la guía oficial de instalación; en Windows también sirve `winget install astral-sh.uv` y en macOS `brew install uv`)
 - Google Chrome instalado
 - Una cuenta de Coto Digital con domicilio de entrega o sucursal elegida
 
