@@ -22,8 +22,10 @@ BASE = "https://www.coto.com.ar"
 SEARCH_URL = f"{BASE}/sitios/cdigi/categoria"
 REST = "/rest/model/atg"
 DIR = Path(__file__).parent
-# Datos de cada usuario: COTO_DATA_DIR (desarrollo) > CLAUDE_PLUGIN_DATA (plugin instalado) > carpeta del script
-DATA = Path(os.environ.get("COTO_DATA_DIR") or os.environ.get("CLAUDE_PLUGIN_DATA") or DIR)
+# Datos de cada usuario: COTO_DATA_DIR (desarrollo) > CLAUDE_PLUGIN_DATA (plugin de Claude Code) > ~/.coto-compras
+# (Codex no expande variables en la config del MCP, así que su plugin usa la carpeta del usuario)
+DATA = Path(os.environ.get("COTO_DATA_DIR") or os.environ.get("CLAUDE_PLUGIN_DATA")
+            or Path.home() / ".coto-compras")
 DATA.mkdir(parents=True, exist_ok=True)
 LISTA = DATA / "lista.json"
 EJEMPLO = DIR / "lista.ejemplo.json"

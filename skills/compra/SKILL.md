@@ -19,7 +19,7 @@ Si la persona no dijo qué compra es, preguntá en qué semana del mes está y u
 | 3 | `quincenal,semanal` |
 | 4 | `semanal` |
 
-Argumento recibido (puede estar vacío): $ARGUMENTS
+Si la persona ya dijo qué frecuencia comprar (por ejemplo como argumento: $ARGUMENTS), usala sin preguntar.
 
 ## Pasos
 

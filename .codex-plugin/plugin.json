@@ -15,5 +15,7 @@
     "compras",
     "argentina",
     "mcp"
-  ]
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.codex-mcp.json"
 }
