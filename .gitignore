@@ -1,0 +1,7 @@
+# Datos personales y sesión de Coto: nunca subir
+.coto_perfil/
+.coto_cookies.json
+lista.json
+__pycache__/
+*.pyc
+.mcpb-cache/

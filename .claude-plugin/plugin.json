@@ -1,0 +1,11 @@
+{
+  "name": "coto-compras",
+  "displayName": "Coto Compras",
+  "version": "0.1.0",
+  "description": "Arma tu lista de compras, cotiza con precios actuales y carga el carrito de Coto Digital. El pago lo hacés vos.",
+  "author": {
+    "name": "Rodrigo Rey"
+  },
+  "license": "MIT",
+  "keywords": ["coto", "supermercado", "compras", "argentina", "mcp"]
+}

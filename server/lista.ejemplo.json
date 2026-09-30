@@ -1,0 +1,220 @@
+{
+  "_nota": "EJEMPLO: compra de 1 persona en deficit calorico (~1.800-2.100 kcal/dia), menu de verano simple. Pollo y huevos no estan porque se compran en polleria. Cantidad por cada compra; pesables en kg (multiplos de 0.25). mensual=1 vez/mes, quincenal=2, semanal=4. 'busqueda' = termino para proponer reemplazos sin stock; 'alternativas' = elige el mas barato del dia; 'precio_max' = no compra si todo supera ese precio.",
+  "items": [
+    {
+      "id": "arroz",
+      "nombre": "Arroz Integral Vanguardia 1 kg",
+      "sku": "sku00114921",
+      "cantidad": 1,
+      "pesable": false,
+      "frecuencia": "mensual",
+      "busqueda": "arroz integral"
+    },
+    {
+      "id": "fideos",
+      "nombre": "Espagueti Favorita 500 g",
+      "sku": "sku00249446",
+      "cantidad": 1,
+      "pesable": false,
+      "frecuencia": "mensual",
+      "busqueda": "espagueti"
+    },
+    {
+      "id": "avena",
+      "nombre": "Avena Mash Tradicional 400 g",
+      "sku": "sku00624011",
+      "cantidad": 4,
+      "pesable": false,
+      "frecuencia": "mensual",
+      "busqueda": "avena"
+    },
+    {
+      "id": "mani",
+      "nombre": "Mani sin sal a granel",
+      "sku": "sku00073096",
+      "cantidad": 0.25,
+      "pesable": true,
+      "frecuencia": "mensual",
+      "busqueda": "mani sin sal"
+    },
+    {
+      "id": "atun",
+      "nombre": "Atun desmenuzado al natural Ciudad del Lago 170 g",
+      "sku": "sku00070701",
+      "cantidad": 12,
+      "pesable": false,
+      "frecuencia": "mensual",
+      "busqueda": "atun al natural"
+    },
+    {
+      "id": "leche",
+      "nombre": "Leche descremada larga vida Conaprole 1 L (3x2)",
+      "sku": "sku00083564",
+      "cantidad": 3,
+      "pesable": false,
+      "frecuencia": "mensual",
+      "busqueda": "leche descremada larga vida"
+    },
+    {
+      "id": "merluza",
+      "nombre": "Filete de merluza despinado congelado",
+      "sku": "sku00039688",
+      "cantidad": 2.0,
+      "pesable": true,
+      "frecuencia": "mensual",
+      "busqueda": "filete merluza"
+    },
+    {
+      "id": "carne_picada",
+      "nombre": "Picada desgrasada Estancias Coto",
+      "sku": "sku00048124",
+      "cantidad": 0.5,
+      "pesable": true,
+      "frecuencia": "quincenal",
+      "busqueda": "picada desgrasada",
+      "precio_max": 17000
+    },
+    {
+      "id": "carne_corte",
+      "nombre": "Corte magro (tapa de nalga / cuadrada / bola de lomo / nalga / peceto)",
+      "sku": "sku00048128",
+      "alternativas": [
+        "sku00029905",
+        "sku00047993",
+        "sku00047991",
+        "sku00047994"
+      ],
+      "cantidad": 1.0,
+      "pesable": true,
+      "frecuencia": "quincenal",
+      "busqueda": "tapa de nalga",
+      "precio_max": 17000
+    },
+    {
+      "id": "pan",
+      "nombre": "Pan Salvado Lactal 560 g",
+      "sku": "sku00558094",
+      "cantidad": 1,
+      "pesable": false,
+      "frecuencia": "quincenal",
+      "busqueda": "pan lactal salvado"
+    },
+    {
+      "id": "papa",
+      "nombre": "Papa blanca",
+      "sku": "sku00000695",
+      "cantidad": 1.75,
+      "pesable": true,
+      "frecuencia": "quincenal",
+      "busqueda": "papa"
+    },
+    {
+      "id": "batata",
+      "nombre": "Batata",
+      "sku": "sku00072041",
+      "cantidad": 1.25,
+      "pesable": true,
+      "frecuencia": "quincenal",
+      "busqueda": "batata"
+    },
+    {
+      "id": "yogur_vainilla",
+      "nombre": "Yogur descremado vainilla La Serenisima sachet 900 g",
+      "sku": "sku00621528",
+      "cantidad": 1,
+      "pesable": false,
+      "frecuencia": "quincenal",
+      "busqueda": "yogur bebible descremado"
+    },
+    {
+      "id": "yogur_frutilla",
+      "nombre": "Yogur bebible descremado Tregar frutilla 900 g",
+      "sku": "sku00559457",
+      "cantidad": 1,
+      "pesable": false,
+      "frecuencia": "quincenal",
+      "busqueda": "yogur bebible descremado"
+    },
+    {
+      "id": "queso_blanco",
+      "nombre": "Queso blanco light Tregar 290 g",
+      "sku": "sku00568924",
+      "cantidad": 3,
+      "pesable": false,
+      "frecuencia": "quincenal",
+      "busqueda": "queso blanco light"
+    },
+    {
+      "id": "zapallito",
+      "nombre": "Zapallito largo",
+      "sku": "sku00000690",
+      "cantidad": 0.75,
+      "pesable": true,
+      "frecuencia": "semanal",
+      "busqueda": "zapallito"
+    },
+    {
+      "id": "zanahoria",
+      "nombre": "Zanahoria",
+      "sku": "sku00000686",
+      "cantidad": 1.0,
+      "pesable": true,
+      "frecuencia": "semanal",
+      "busqueda": "zanahoria"
+    },
+    {
+      "id": "tomate",
+      "nombre": "Tomate redondo",
+      "sku": "sku00000684",
+      "cantidad": 1.5,
+      "pesable": true,
+      "frecuencia": "semanal",
+      "busqueda": "tomate"
+    },
+    {
+      "id": "lechuga",
+      "nombre": "Lechuga mantecosa",
+      "sku": "sku00000424",
+      "cantidad": 0.75,
+      "pesable": true,
+      "frecuencia": "semanal",
+      "busqueda": "lechuga"
+    },
+    {
+      "id": "cebolla",
+      "nombre": "Cebolla a granel",
+      "sku": "sku00000602",
+      "cantidad": 0.5,
+      "pesable": true,
+      "frecuencia": "semanal",
+      "busqueda": "cebolla x kg"
+    },
+    {
+      "id": "pepino",
+      "nombre": "Pepino",
+      "sku": "sku00000665",
+      "cantidad": 0.5,
+      "pesable": true,
+      "frecuencia": "semanal",
+      "busqueda": "pepino"
+    },
+    {
+      "id": "banana",
+      "nombre": "Banana (~4 u)",
+      "sku": "sku00000446",
+      "cantidad": 0.75,
+      "pesable": true,
+      "frecuencia": "semanal",
+      "busqueda": "banana"
+    },
+    {
+      "id": "manzana",
+      "nombre": "Manzana comercial (~8 u)",
+      "sku": "sku00061002",
+      "cantidad": 1.5,
+      "pesable": true,
+      "frecuencia": "semanal",
+      "busqueda": "manzana"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "coto-compras",
+  "description": "Plugin para hacer la compra del super en Coto Digital desde Claude Code",
+  "owner": {
+    "name": "Rodrigo Rey"
+  },
+  "plugins": [
+    {
+      "name": "coto-compras",
+      "source": "./",
+      "description": "Lista de compras, cotización y carga del carrito de Coto Digital"
+    }
+  ]
+}
